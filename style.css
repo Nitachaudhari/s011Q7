@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#row1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+#card{
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card h2{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#card p{
+    margin-top: -10px;
+}
+
+#card button{
+    margin: 10px;
+    background-color: rgba(51, 142, 228, 0.595);
+    font-weight: bold;
+    border: none;
+}
+
+#card img{
+    width: 100%;
+}
